@@ -1,0 +1,813 @@
+*(margin: 0; padding: 0;)
+:root{  
+    --color2: blue;
+
+}
+.body{
+    
+}
+.banner_top{
+    background: url(../img/BGtop.jpg) top center;
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    background-size: cover;
+    
+}
+.banner_top ._2cot{
+    display: flex;
+}
+.banner_top ._2cot .cot1{
+    width: 50%;
+}
+
+.banner_top ._2cot .cot1.trai > a{
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    margin: 20px 30px;
+    padding: 7px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(88, 86, 86, 0.616);
+    
+}
+.banner_top ._2cot .cot1 .toplayer1 .menu{
+    padding-left: 5px;
+}
+.banner_top ._2cot .cot1.trai a:hover{
+    color: blue;
+}
+.banner_top ._2cot .cot1.phai {
+    display:flex;
+    width: 650px;
+}
+.banner_top ._2cot .cot1.phai a{
+    color: black;
+    font-size: 18px;
+    padding: 15px 10px;
+    display: inline-block;
+}
+.banner_top ._2cot .cot1.phai a:hover{
+    color: blue;
+}
+.banner_top .icon img{
+    width: 100%;
+    
+}
+.banner_top .logotop{
+    font-size: 55px;
+    padding-top: 10px;
+}
+
+/* menutoop  */
+.cot1.trai:hover .menutop{
+    visibility: visible;
+    opacity: 1;
+   
+}
+.cot1.trai .menutop{
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.cot1.trai .toplayer1{
+    position: relative;
+}
+.menutop {
+    position: absolute;
+    top: 20px;
+    left: 330px;
+}
+.menutop ul {
+    list-style: none;
+}
+.menutop li a {
+    color: white;
+    text-decoration: none;
+}
+.menutop li {
+    height: 30px;
+    width: 200px;
+    background-color: rgb(136, 136, 132);
+    padding-left: 10px;
+    border: 1px solid steelblue;
+    
+
+}
+.banner_mid{
+    width: 1000px;
+    background: url(../img/top2BG.jpg) center top;
+    margin: 10px auto 10px auto;
+    height: 150px;
+    
+}
+.banner_mid .mid_3cot{
+    display: flex;
+    height: 100%
+    
+}   
+
+.banner_mid .mid_3cot .mid:hover{
+    background-color: rgb(49, 209, 129);
+}
+.banner_mid .mid_3cot .mid{
+    width: 210px;
+
+    height: 76px;
+    text-align: center;
+    background-color: #7de0e0;
+    margin: auto;
+    border-radius: 60px;
+    line-height: 76px;
+}
+.banner_mid .mid_3cot .mid.trai{
+
+}
+.banner_mid .mid_3cot a:hover{
+    color: cornflowerblue;
+}
+.banner_mid .mid_3cot a{
+    text-align: center;
+    display: inline-block;
+    line-height: 76px;
+    text-decoration: none;
+    
+
+}
+.banner_mid .mid_3cot a h3:hover{
+    color: rgb(23, 108, 235);
+}
+.banner_mid .mid_3cot a h3{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.banner_mid .mid_3cot.mid_phai{}
+.banner_mid .mid_3cot.mid_phai{}
+
+/*--list---*/
+.img_list{
+    width: 1000px;
+    height: 300px;
+    margin: 10px auto 10px auto;
+    background-color: #e1eef6;
+    text-align: center;
+    opacity: 1;
+
+}
+.img_list img{
+    width: 600px;
+    height: 300px;
+    transform: scale(1);
+    transition: 0.4s;
+    
+}
+.img_list:hover img{
+    transform: scale(1.1);
+}
+
+
+/*----news----*/
+.news{
+    width: 1000px;
+    height: 250px;
+    margin: 10px auto 10px auto;
+}
+.news .title h2{
+    width: 990px;
+    height: 45px;
+    background-color: #e1eef6;
+    padding: 5px 0px 0px 10px;
+}
+.news .listnews ul{
+    list-style: none;
+}
+.news .listnews{
+    padding-top: 15px;
+}
+.news .listnews{
+    list-style: none;
+    display: flex;
+}
+.nextpage a:hover{
+    color: cornflowerblue;
+}
+.nextpage a{
+    text-decoration: none;
+    padding-right: 40px;
+    color: black;
+}
+.nextpage{
+    text-align: right;
+
+}
+hr{
+    width: 100%;
+}
+.listnews .day li{
+   
+}
+/*---bot---*/
+.bottom{
+    width: 1000px;
+    height: 250px;
+    margin: auto;
+    background-color: #e1eef6;
+}
+.bottom ._3cot ._cot1 a{
+    text-decoration: none;
+}
+.bottom ._3cot{
+    display: flex;
+    width: 100%;
+    text-align: left;
+}
+.bottom ._3cot ._cot1 span{
+    width: 80%;
+
+
+    display: block;
+}
+
+.bottom ._3cot ._cot1{
+    padding-top: 30px;
+    padding-left: 50px;
+
+}
+.bottom ._3cot h2{
+
+    display: inline-block;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottom ._3cot .logo{
+    font-size: 50px;
+    padding: 0px 10px 20px 0px;
+    color: black;
+}
+.bottom ._3cot ._cot1 .bttrai{
+    width: 100%;
+    padding-left: 30px;
+}
+.bottom a:hover{
+    color: cornflowerblue;
+
+}
+.bottom a{
+    color: black;
+
+}
+
+.bottom .icon{
+    font-size: 30px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+.bottom ._3cot ._cot1.btphai{
+    position: relative;
+}
+.bottom ._3cot ._cot1  .scroll{
+    position: absolute;
+    bottom: 80px;
+    right:-130px;
+    background-color:#00000026;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.bottom ._3cot ._cot1  .scroll a {
+    font-size: 30px;
+}
+.bottom ._3cot ._cot1 .btgiua{
+
+
+}
+.bottom ._3cot ._cot1 .btgiua{}
+
+/*-----footer----*/
+
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+/*---2pg---*/
+.mid{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+   ;
+}
+.mid .tren h1{
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 30px;
+}
+.mid .tren {
+    width: 100%;
+    height: 60%;
+    background-color: #e1eef6;
+    margin-top: 10px;
+}
+.mid .duoi {
+    width: 100%;
+    height: 35%;
+    background-color: #e1eef6;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.mid .tren hr {
+    width: 100%;
+    background-color: black;
+    height: 3px;
+}
+ 
+.mid .tren dl dt{
+    width: 100px;
+}
+.mid .tren dl dd{
+    width: 500px;
+}
+.mid .tren dl{
+    display: block;
+    padding-left: 50px;
+    height: 18px;
+}
+.mid .tren .hang1{
+    display: flex;
+/* start css infomation */
+}
+.gra_banner{
+    background-image: -webkit-linear-gradient(left,rgb(87 122 127) 5%,#eaf3f9 100%);
+    width: 1000px;
+    margin: auto;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gra_banner h1{
+    line-height: 80px;
+    padding-left: 50px;
+    color: white;
+
+}
+.phantren {
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    background: #eaf3f9;
+    margin-bottom: 20px;
+
+}
+
+.phantren h1 {
+    font-size: 30px;
+    width: 100%;
+    height: 55px;
+    line-height: 50px;
+    border-bottom: 3px solid black;
+    padding-left: 50px;
+    margin-bottom: 15px;
+}
+.phantren ._3phan {
+    width: 100%;
+    display: flex;
+}
+.phantren ._3phan .texttrai {
+    width: 15%;
+    padding-left: 50px;
+}
+.phantren ._3phan .texttrai span {
+    margin-bottom: 5px;
+}
+.phantren ._3phan .textgiua {
+    width: 50%;
+    padding-left: 30px;
+}
+.phantren ._3phan .textgiua span {
+    
+}
+.phantren ._3phan .anhphai {
+    text-align: right;
+    display: block;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.phantren ._3phan .anhphai img {
+    width: 80%;
+}
+
+.phanduoi{
+    width: 1000px;
+    height: 400px;
+    background: #eaf3f9;
+    margin: auto;
+}
+
+.phanduoi h1{
+    height: 60px;
+    font-size: 30px;
+    width: 100%;
+    padding: 10px 0px 0px 50px;
+    margin-bottom: 5px;
+    border-bottom: black 3px solid;
+}
+.phanduoi ._2phan{
+    display: flex;
+    width: 100%;
+}
+.phanduoi ._2phan .trai{
+    width: 70%;
+    padding: 10px 0px 0px 50px;
+}
+.phanduoi ._2phan .phai img{
+    width: 70%;
+    padding-top: 30px;
+    
+}
+.phanduoi ._2phan .phai{
+    width: 25%;
+    text-align: right;
+}
+.homebt {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    height: 84px;
+    line-height: 84px;
+}
+.homebt a{
+    color: black;
+}
+.homebt a:hover{}
+
+/* -----trang access */
+
+.ggmap{
+    width: 1000px;
+    margin: auto;
+}
+.ggmap iframe{width: 600px;
+    display: block;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    border: 3px solid black;
+
+}
+.ggmap .text{
+    border: 1px dashed black;
+    margin-bottom: 20px;
+    padding: 5px 0 5px 60px;
+}
+.ggmap h1{
+    height: 60px;
+}
+
+/* -------news  */
+.midnews {
+    width: 1000px;
+    margin: auto;
+}
+.midnews h4 {
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.midnews .listnew {
+    display: flex;
+    padding-bottom: 60px;
+}
+.midnews .listnew ul {
+    list-style: none;
+}
+
+.midnews .listnew ul li {
+    text-decoration: none;
+    height: 30px;
+}
+.midnews .listnew ul li a {
+    text-decoration: none;
+    color: black;
+}
+.trang1 {
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.trang1 h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.trang1 .than {
+    display: flex;
+    padding-left: 60px;
+    padding-bottom: 60px;
+}
+.trang1 .than ._1cot {
+    width: 50%;
+}
+.trang1 .than ._1cot span{
+   
+}
+.trang1 .than ._1cot img{
+    width: 100%;
+    height: 450px;
+    padding-left: 50px;
+}
+
+.trang1 > a{
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+}
+
+.midnews .dstrang{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-left: 400px;
+}
+.midnews .dstrang ._1o{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    margin: 5px;
+}
+.midnews .dstrang ._1o:hover{
+    background-color: rgb(174, 234, 236);
+}
+
+/* staff shoukai */
+
+.staff {
+    width: 1000px;
+    margin: auto;
+}
+.staff ._1hang {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.staff ._1hang .trai {
+    width: 70%;
+    padding-left: 60px;
+}
+.staff ._1hang .trai span {
+    display: block;
+}
+.staff ._1hang .phai {
+    width: 25%;
+}
+.staff ._1hang .phai img {
+    width: 80%;
+}
+
+
+/* ----trang cong truong */
+.congtruong {
+    width: 1000px;
+    margin: auto;
+}
+.congtruong ._1hang {
+    padding-top: 30px;
+}
+.congtruong ._1hang h3 {
+    color: black;
+    padding-left: 30px;
+}
+.congtruong ._1hang .anh {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px 30px 60px;
+
+}
+.congtruong ._1hang .anh img{
+    width: 200px;
+    height: 200px;
+}
+
+
+ /* shinchi */
+
+ .trang2 {
+     width: 1000px;
+     margin: auto;
+     padding-left: 30px;
+     padding-bottom: 20px;
+
+     
+ }
+ .trang2 .thanshinchi{
+     width: 100%;
+
+ }
+
+ 
+ .trang2 .thanshinchi ._1cot .anh img{
+     width: 300px;
+     height: 300px;
+ }
+ .trang2 .thanshinchi ._1cot .chu{
+     width: 550px;
+     text-align: left;
+     padding-left: 15px;
+
+ }
+ .trang2 .thanshinchi ._1cot .chu span{
+    
+ }
+ .trang2 .thanshinchi ._1cot .chu a{
+     text-decoration: none;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding: 5px;
+     background-color: #c0daf1;
+ }
+ .trang2 .thanshinchi ._1cot {
+     padding-bottom: 50px;
+     display: flex;
+ 
+ }
+ .trang2 .thanshinchi h4{
+     border-bottom: 1px solid black;
+     padding-bottom: 5px;
+ }
+.trang2 > a{
+    margin-bottom: 10px;
+}
+
+
+ /* trang 3 */
+.trang1 .than ._2cot{
+    display: flex;
+}
+.trang1 .than ._2cot span{
+    width: 75%;
+}
+.trang1 .than ._2cot img{
+    width: 250px;
+    height: 250px;
+}
+
+
+/* faq */
+.faq{
+    width: 1000px;
+    margin: auto;
+}
+.faq ._1hang a{
+    color: black;
+}
+.faq ._1hang{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.faq ._1hang h3{
+    background-color: rgb(140, 165, 211);
+    padding-bottom: 20px;
+    line-height: 50px;
+    height: 50px;
+    font-size: 23px;
+}.faq ._1hang .ans{
+    font-size: 18px;
+    padding-left: 10px;
+
+}
+
+.btback{
+    color: black;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(185, 228, 241);
+}
+
+/* ------------reform */
+.reform {
+    width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.gachchanto{
+    border-bottom: 2px dotted black;
+}
+.reform .tieude {
+   
+    text-align: center;
+}
+.reform .tieude h4{
+    font-size: 20px;
+}
+.reform ._1hang {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    justify-content: space-between;
+    
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(188, 207, 207);
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.reform ._1hang .anh {
+    width: 300px;
+    padding: 10px 10px 5px 10px;
+}
+.reform ._1hang .anh img {
+    width: 250px;
+    height: 200px;
+}
+.refomr ._1hang .phai {}
+.reform i{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 50px;
+}
+.reform .sodan{
+    display: flex;
+    width: 100%;
+}
+.reform .sodan > img{
+    width: 400px;
+    height: 250px;
+    margin-right: 25px;
+    padding-left: 15px;
+}
+.reform .sodan p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+/* ---------toiawase */
+.toiawase{width: 1000px;
+margin: auto;
+text-align: center;
+padding-bottom: 30px;
+}
+
+.toiawase ._1hang{
+    display: flex;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+
+}
+.toiawase ._1hang p{
+    width: 25%;
+    align-items: center;
+}
+.toiawase ._1hang .chudo{
+    color: rgb(194, 66, 66);
+    padding-left: 3px;
+}
+.toiawase ._1hang .bottom{
+    padding-top: 10px;
+}
+
+.danhsach {
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.gachchan{
+    border-bottom: 1px dotted black;
+}
+
+
+
+
